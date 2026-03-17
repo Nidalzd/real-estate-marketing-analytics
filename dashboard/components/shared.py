@@ -20,7 +20,7 @@ import streamlit as st
 from src import config
 
 
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_data() -> pd.DataFrame:
     """Load enriched leads parquet with Streamlit caching.
 
@@ -35,7 +35,7 @@ def load_data() -> pd.DataFrame:
     return df
 
 
-@st.cache_data
+@st.cache_data(ttl=0)
 def load_scored_data() -> pd.DataFrame:
     """Load scored leads CSV (includes lead_score + lead_segment) with caching.
 
