@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \":*)",
+      "Bash(python build_nb04.py)",
+      "Bash(python build_nb05.py)",
+      "Bash(python build_nb06.py)",
+      "Bash(python create_notebook_07.py)",
+      "Bash(PYTHONIOENCODING=utf-8 python build_notebook_08.py)",
+      "Bash(PYTHONIOENCODING=utf-8 jupyter nbconvert --to notebook --execute notebooks/08_segmentation.ipynb --output 08_segmentation.ipynb --ExecutePreprocessor.timeout=180)",
+      "Bash(PYTHONIOENCODING=utf-8 python -c \":*)",
+      "Bash(timeout 10 streamlit run dashboard/app.py --server.headless true)",
+      "Bash(ls \"c:/Projects/Real Estate Analytics/src/\"*.py)",
+      "Bash(ls src/*.py)",
+      "Bash(cp reports/figures/08_s1_score_histogram.png reports/figures/lead_score_distribution.png)",
+      "Bash(cp reports/figures/08_s1_score_histogram.html reports/figures/lead_score_distribution.html)",
+      "Bash(cp reports/figures/08_s1_segment_distribution.png reports/figures/segment_distribution.png)",
+      "Bash(cp reports/figures/08_s1_segment_distribution.html reports/figures/segment_distribution.html)",
+      "Bash(cp reports/figures/08_s2_country_treemap.png reports/figures/geographic_segments.png)",
+      "Bash(cp reports/figures/08_s2_country_treemap.html reports/figures/geographic_segments.html)",
+      "Bash(cp reports/figures/07_s1_lead_funnel.png reports/figures/lead_flow_sankey.png)",
+      "Bash(cp reports/figures/07_s1_lead_funnel.html reports/figures/lead_flow_sankey.html)",
+      "Bash(cp reports/figures/07_s5_response_time_scatter.png reports/figures/response_time_impact.png)",
+      "Bash(cp reports/figures/07_s5_response_time_scatter.html reports/figures/response_time_impact.html)"
+    ]
+  }
+}
