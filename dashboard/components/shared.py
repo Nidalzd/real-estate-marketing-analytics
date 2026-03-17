@@ -63,6 +63,7 @@ def page_footer() -> None:
     """Render the standard dashboard footer on every page."""
     st.divider()
     st.caption(
+        "© 2026 Nidal Zeineldine · All rights reserved · Freelance Data Analytics Project  \n"
         "Data: March 9–13 2026  ·  169 leads  ·  9 campaigns  ·  "
         "A.S. Properties, Dubai  ·  Source: HubSpot CRM / Facebook Lead Ads"
     )

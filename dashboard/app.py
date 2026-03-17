@@ -18,8 +18,8 @@ for _p in [str(_ROOT), str(_DASHBOARD)]:
 import streamlit as st
 
 st.set_page_config(
-    page_title="Real Estate Marketing Analytics",
-    page_icon="🏢",
+    page_title="Nidal Zeineldine | RE Analytics",
+    page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -29,7 +29,7 @@ from components.shared import page_footer  # noqa: E402
 
 # ── Sidebar ────────────────────────────────────────────────────────────────────
 
-st.sidebar.title("🏢 RE Analytics")
+st.sidebar.title("📊 Nidal Zeineldine | Data Analytics")
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Client:** A.S. Properties, Dubai")
 st.sidebar.markdown("**Dataset:** Week 2 Campaign Performance")
@@ -56,7 +56,10 @@ st.markdown(
         <h1 style="margin: 0; color: white; font-size: 2.1rem; font-weight: 700; line-height: 1.2;">
             Real Estate Marketing Analytics
         </h1>
-        <p style="margin: 0.6rem 0 0 0; opacity: 0.9; font-size: 1.05rem; font-weight: 400;">
+        <p style="margin: 0.4rem 0 0 0; opacity: 0.85; font-size: 1rem; font-weight: 500; letter-spacing: 0.02em;">
+            by Nidal Zeineldine
+        </p>
+        <p style="margin: 0.5rem 0 0 0; opacity: 0.9; font-size: 1.05rem; font-weight: 400;">
             Facebook Lead Campaign Performance — Week 2, March 9–13 2026
         </p>
         <p style="margin: 0.3rem 0 0 0; opacity: 0.7; font-size: 0.9rem;">

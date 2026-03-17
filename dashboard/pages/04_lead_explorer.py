@@ -15,7 +15,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="Lead Explorer – RE Analytics", layout="wide")
+st.set_page_config(page_title="Lead Explorer | Nidal Zeineldine", page_icon="📊", layout="wide")
 
 from src import config
 from components.shared import load_scored_data, page_footer

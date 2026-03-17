@@ -1,5 +1,7 @@
 # Real Estate Marketing Analytics
 
+Developed by [Nidal Zeineldine](https://github.com/Nidalzd) · Freelance Data Analytics · 2026
+
 End-to-end analysis of 169 Facebook-generated leads for A.S. Properties, a Dubai-based real estate company. Raw HubSpot CRM data is transformed through a reproducible Python pipeline into actionable marketing insights: campaign scoring, agent performance benchmarking, geographic targeting analysis, and a lead scoring model — all surfaced through an interactive Streamlit dashboard and a series of Jupyter notebooks.
 
 ---
@@ -204,4 +206,6 @@ streamlit run dashboard/app.py
 
 ## License
 
-MIT License — see [LICENSE](LICENSE) for details.
+© 2026 Nidal Zeineldine. All rights reserved.
+This project was developed as freelance work.
+Code is shared for portfolio purposes only.

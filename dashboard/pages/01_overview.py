@@ -15,7 +15,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
-st.set_page_config(page_title="Overview – RE Analytics", layout="wide")
+st.set_page_config(page_title="Overview | Nidal Zeineldine", page_icon="📊", layout="wide")
 
 from src import analysis, config
 from src.visualization import plot_funnel, plot_donut

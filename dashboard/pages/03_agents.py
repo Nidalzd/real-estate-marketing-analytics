@@ -14,7 +14,7 @@ for _p in [str(_ROOT), str(_DASHBOARD)]:
 import plotly.express as px
 import streamlit as st
 
-st.set_page_config(page_title="Agents – RE Analytics", layout="wide")
+st.set_page_config(page_title="Agents | Nidal Zeineldine", page_icon="📊", layout="wide")
 
 from src import analysis, config
 from src.visualization import plot_box, plot_radar

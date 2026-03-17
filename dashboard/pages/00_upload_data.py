@@ -22,7 +22,7 @@ import streamlit as st
 from src import config
 from components.shared import page_footer
 
-st.set_page_config(page_title="Upload Data – RE Analytics", layout="wide")
+st.set_page_config(page_title="Upload Data | Nidal Zeineldine", page_icon="📊", layout="wide")
 
 st.title("Upload Weekly Data")
 st.markdown(
